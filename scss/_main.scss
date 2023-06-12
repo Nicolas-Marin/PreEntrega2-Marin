@@ -59,6 +59,11 @@ main{
             }
         }
     }
+    .carousel-caption{ 
+        p{
+        text-shadow: #000000 2px 2px 2px;
+    }
+    }
     form {
         width: 80%;
         align-items: center;
