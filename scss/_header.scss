@@ -1,0 +1,67 @@
+header{
+    .banner {
+        background-image: $bi1;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90vw;
+        height: 30vh;
+    }
+    
+    .bannerNosotros {
+        background-image: $bi2;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90vw;
+        height: 30vh;
+    }
+    
+    .bannerProductos {
+        background-image: $bi3;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90vw;
+        height: 30vh;
+    }
+    
+    .bannerMantenimiento {
+        background-image: $bi5;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90vw;
+        height: 30vh;
+    }
+    
+    .bannerContacto {
+        background-image: $bi4;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90vw;
+        height: 30vh;
+    }
+    nav {
+        background: rgb(213, 213, 213);
+        background: $bggn;
+
+        ul {
+            list-style: none;
+            text-align: right;
+            li{
+                .nav-item{
+                    margin: 0px 1rem;
+                    padding: 0.2rem;
+                    font-size: 1.2rem;
+                }
+                &:hover{
+                    background-color: #133b63;
+                    color: white;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}

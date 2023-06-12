@@ -1,275 +1,192 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Comfortaa', cursive;
-}
-
-html {
-    background-image: url(../media/fondoAnimado.svg);
-}
-
 body {
-    width: 90vw;
-    margin: auto;
-    min-height: 100vh;
-    position: relative;
-    padding-bottom: 80px;
-    background: rgb(213, 213, 213);
-    background: linear-gradient(90deg, rgba(213, 213, 213, 1) 0%, rgba(154, 154, 154, 1) 40%, rgba(106, 106, 106, 1) 100%);
-}
-
-nav {
-    background: rgb(213, 213, 213);
-    background: linear-gradient(90deg, rgba(213, 213, 213, 1) 0%, rgba(154, 154, 154, 1) 40%, rgba(106, 106, 106, 1) 100%);
-}
-
-nav ul {
-    list-style: none;
-    text-align: right;
-
-}
-
-.menu a {
-    font-size: 1.2rem;
-    font-weight: 700;
-    text-decoration: none;
-    color: black;
-    padding: 1rem;
-    display: inline-block;
-    margin: 0rem 0.5rem 0rem 0.5rem;
-}
-
-.menu {
-    display: inline-block;
-    text-align: center;
-    margin: 0px 2px;
-
-}
-
-.menu:hover {
-    background-color: #133b63;
-
-}
-
-.menu a:hover {
-    color: white;
-    text-shadow: gray 3px;
-    font-weight: bold;
-}
-
-.banner {
-    background-image: url(../media/12545-tecnologia.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 90vw;
-    height: 30vh;
-}
-
-.bannerNosotros {
-    background-image: url(../media/2-tecnologia.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 90vw;
-    height: 30vh;
-}
-
-.bannerProductos {
-    background-image: url(../media/3-tecnologia.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 90vw;
-    height: 30vh;
-}
-
-.bannerMantenimiento {
-    background-image: url(../media/5-tecnologia.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 90vw;
-    height: 30vh;
-}
-
-.bannerContacto {
-    background-image: url(../media/4-tecnologia.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 90vw;
-    height: 30vh;
-}
+  width: 90vw;
+  margin: auto;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 80px;
+  background: #d5d5d5;
+  background: linear-gradient(90deg, #d5d5d5 0%, #9a9a9a 40%, #6a6a6a 100%); }
 
 footer {
-    font-size: 1.2rem;
-    position: absolute;
-    bottom: 0;
-    width: 90vw;
-    margin: auto;
-    text-align: center;
-    padding: 1rem;
-    background: rgb(213, 213, 213);
-    background: linear-gradient(90deg, rgba(213, 213, 213, 1) 0%, rgba(154, 154, 154, 1) 40%, rgba(106, 106, 106, 1) 100%);
-}
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 0;
+  width: 90vw;
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+  background: #d5d5d5;
+  background: linear-gradient(90deg, #d5d5d5 0%, #9a9a9a 40%, #6a6a6a 100%); }
 
-.tittle {
-    text-align: center;
-    margin-top: 3rem;
-}
+header .banner {
+  background-image: url(../media/12545-tecnologia.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90vw;
+  height: 30vh; }
 
-.tittle2 {
-    text-align: center;
-    margin: 3rem auto;
-}
+header .bannerNosotros {
+  background-image: url(../media/2-tecnologia.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90vw;
+  height: 30vh; }
 
-.slogan {
-    text-align: center;
-    margin: 2rem auto;
-    background-color: rgb(56, 172, 188);
-    max-width: fit-content;
-}
+header .bannerProductos {
+  background-image: url(../media/3-tecnologia.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90vw;
+  height: 30vh; }
 
-.pregunta {
-    text-align: center;
-    margin: 2rem 0rem;
-}
+header .bannerMantenimiento {
+  background-image: url(../media/5-tecnologia.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90vw;
+  height: 30vh; }
 
-.alerta {
-    text-align: center;
-    margin: 2rem 0rem;
+header .bannerContacto {
+  background-image: url(../media/4-tecnologia.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90vw;
+  height: 30vh; }
 
-}
+header nav {
+  background: #d5d5d5;
+  background: linear-gradient(90deg, #d5d5d5 0%, #9a9a9a 40%, #6a6a6a 100%); }
+  header nav ul {
+    list-style: none;
+    text-align: right; }
+    header nav ul li .nav-item {
+      margin: 0px 1rem;
+      padding: 0.2rem;
+      font-size: 1.2rem; }
+    header nav ul li:hover {
+      background-color: #133b63;
+      color: white;
+      border-radius: 10px; }
 
-.eleccion {
-    width: 90%;
-    margin: auto;
-    text-align: justify;
-}
+main .pregunta {
+  text-align: center;
+  margin: 2rem 0rem; }
 
-.video {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 3rem 0rem;
-    padding: 5px;
-}
+main .video {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 3rem 0rem;
+  padding: 5px; }
 
-.video iframe {
-    border: #133b63 3px solid;
-    padding: 3px;
-}
-/* .lista-productos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-} */
+main .eleccion {
+  width: 90%;
+  margin: auto;
+  text-align: justify; }
 
-.producto img {
+main .tittle {
+  text-align: center;
+  margin-top: 3rem; }
+
+main .slogan {
+  text-align: center;
+  margin: 2rem auto;
+  background-color: #38acbc;
+  max-width: fit-content; }
+
+main .service {
+  margin: 5rem auto;
+  width: 80%;
+  text-align: justify; }
+
+main iframe {
+  border: #133b63 3px solid;
+  padding: 3px; }
+
+main .alerta {
+  text-align: center;
+  margin: 2rem 0rem; }
+
+main .tittle2 {
+  text-align: center;
+  margin: 3rem auto; }
+
+main .producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+  main .producto img {
     width: 200px;
     height: 200px;
     border: #133b63 4px solid;
-    background-color: white;
-}
+    background-color: white; }
+    main .producto img:hover {
+      animation: osil 2s infinite; }
 
-.producto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+main form {
+  width: 80%;
+  align-items: center;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  font-weight: 700; }
+  main form legend {
+    text-align: center; }
+  main form div {
+    margin: 1rem; }
+    main form div .sexo {
+      margin: 0 10px; }
+    main form div .datos {
+      text-align: center;
+      width: 100%; }
+    main form div input {
+      border-radius: 10px;
+      border: 1px solid #000000;
+      padding: 0.6rem 0.6rem; }
+    main form div .botones {
+      margin: 0px 2rem;
+      padding: 0.5rem;
+      font-size: 1.2rem; }
+      main form div .botones:hover {
+        background-color: #133b63;
+        color: white; }
+    main form div textarea {
+      border-radius: 10px;
+      border: 1px solid #000000;
+      padding: 0.3rem 0.6rem;
+      display: block;
+      width: 100%;
+      margin: 1rem 0px; }
+    main form div select {
+      border-radius: 10px;
+      border: 1px solid #000000;
+      padding: 0.4rem 0.6rem;
+      font-size: 1.2rem;
+      font-weight: 700; }
 
-}
-.carousel-caption p{
-    text-shadow: #000000 2px 2px 2px;
-}
-.service img {
-    width: 500px;
-    margin-bottom: 2rem;
-    margin: 2%;
-    border: #133b63 3px solid;
-    padding: 5px;
+@keyframes osil {
+  0% {
+    transform: rotate(0deg); }
+  25% {
+    transform: rotate(5deg); }
+  50% {
+    transform: rotate(-5deg); }
+  75% {
+    transform: rotate(5deg); }
+  100% {
+    transform: rotate(0deg); } }
 
-}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive; }
 
-.service {
-    margin: 5rem auto;
-    width: 80%;
-}
-
-.service p {
-    text-align: justify;
-}
-
-form {
-    width: 80%;
-    align-items: center;
-    margin: 2rem auto;
-    font-size: 1.2rem;
-    font-weight: 700;
-}
-
-legend {
-    text-align: center;
-}
-
-input {
-    border-radius: 10px;
-    border: 1px solid #000000;
-    padding: 0.6rem 0.6rem;
-}
-
-textarea {
-    border-radius: 10px;
-    border: 1px solid #000000;
-    padding: 0.3rem 0.6rem;
-    display: block;
-    width: 100%;
-    margin: 1rem 0px;
-}
-
-form div {
-    margin: 1rem;
-}
-
-select {
-    border-radius: 10px;
-    border: 1px solid #000000;
-    padding: 0.4rem 0.6rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-}
-
-.botones {
-    margin: 0px 2rem;
-    padding: 0.5rem;
-    font-size: 1.2rem;
-}
-
-.botones:hover {
-    background-color: #133b63;
-    color: white;
-}
-.nav-item{
-    margin: 0px 1rem;
-    padding: 0.2rem;
-    font-size: 1.2rem;
-}
-.nav-item:hover{
-    background-color: #133b63;
-    color: white;
-    border-radius: 10px;
-}
-
-.sexo {
-    margin: 0 10px;
-}
-
-.datos {
-    text-align: center;
-    width: 100%;
-}
+html {
+  background-image: url(../media/fondoAnimado.svg); }

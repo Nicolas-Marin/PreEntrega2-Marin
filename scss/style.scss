@@ -1,0 +1,15 @@
+@import "var";
+@import "body";
+@import "footer";
+@import "header";
+@import "main";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+html {
+    background-image: url(../media/fondoAnimado.svg);
+}

@@ -1,0 +1,129 @@
+main{
+    .pregunta {
+        text-align: center;
+        margin: 2rem 0rem;
+    }
+    .video {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 3rem 0rem;
+        padding: 5px;
+    }
+    .eleccion {
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+    }
+    .tittle {
+            text-align: center;
+            margin-top: 3rem;
+    }
+    .slogan {
+            text-align: center;
+            margin: 2rem auto;
+            background-color: rgb(56, 172, 188);
+            max-width: fit-content;
+    }
+    .service {
+        margin: 5rem auto;
+        width: 80%;
+        text-align: justify;
+    }
+    iframe {
+        border: #133b63 3px solid;
+        padding: 3px;
+    }
+    .alerta {
+        text-align: center;
+        margin: 2rem 0rem;
+        
+    }
+    .tittle2 {
+        text-align: center;
+        margin: 3rem auto;
+    }
+    .producto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        img {
+            width: 200px;
+            height: 200px;
+            border: #133b63 4px solid;
+            background-color: white;
+            &:hover{
+                animation: osil 2s infinite;
+            }
+        }
+    }
+    form {
+        width: 80%;
+        align-items: center;
+        margin: 2rem auto;
+        font-size: 1.2rem;
+        font-weight: 700;
+        legend {
+            text-align: center;
+        }
+        div {
+            margin: 1rem;
+            .sexo {
+                margin: 0 10px;
+            }
+            .datos {
+                text-align: center;
+                width: 100%;
+            }
+            input {
+                border-radius: 10px;
+                border: 1px solid #000000;
+                padding: 0.6rem 0.6rem;
+            }
+            .botones {
+                margin: 0px 2rem;
+                padding: 0.5rem;
+                font-size: 1.2rem;
+                &:hover {
+                    background-color: #133b63;
+                    color: white;
+                }
+            }
+            
+            textarea {
+                border-radius: 10px;
+                border: 1px solid #000000;
+                padding: 0.3rem 0.6rem;
+                display: block;
+                width: 100%;
+                margin: 1rem 0px;
+            }
+            select {
+                border-radius: 10px;
+                border: 1px solid #000000;
+                padding: 0.4rem 0.6rem;
+                font-size: 1.2rem;
+                font-weight: 700;
+            }
+        }
+    }
+}
+@keyframes osil {
+    0% {
+        transform: rotate(0deg);
+      }
+      25% {
+        transform: rotate(5deg);
+      }
+      50% {
+        transform: rotate(-5deg);
+      }
+      75% {
+        transform: rotate(5deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
