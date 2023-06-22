@@ -1,5 +1,9 @@
 header{
     .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
         background-image: $bi1;
         background-position: center;
         background-size: cover;
@@ -9,6 +13,10 @@ header{
     }
     
     .bannerNosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
         background-image: $bi2;
         background-position: center;
         background-size: cover;
@@ -18,6 +26,10 @@ header{
     }
     
     .bannerProductos {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
         background-image: $bi3;
         background-position: center;
         background-size: cover;
@@ -27,6 +39,10 @@ header{
     }
     
     .bannerMantenimiento {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
         background-image: $bi5;
         background-position: center;
         background-size: cover;
@@ -36,6 +52,10 @@ header{
     }
     
     .bannerContacto {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
         background-image: $bi4;
         background-position: center;
         background-size: cover;

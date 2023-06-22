@@ -19,6 +19,10 @@ footer {
   background: linear-gradient(90deg, #d5d5d5 0%, #9a9a9a 40%, #6a6a6a 100%); }
 
 header .banner {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
   background-image: url(../media/12545-tecnologia.jpg);
   background-position: center;
   background-size: cover;
@@ -27,6 +31,10 @@ header .banner {
   height: 30vh; }
 
 header .bannerNosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
   background-image: url(../media/2-tecnologia.jpg);
   background-position: center;
   background-size: cover;
@@ -35,6 +43,10 @@ header .bannerNosotros {
   height: 30vh; }
 
 header .bannerProductos {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
   background-image: url(../media/3-tecnologia.jpg);
   background-position: center;
   background-size: cover;
@@ -43,6 +55,10 @@ header .bannerProductos {
   height: 30vh; }
 
 header .bannerMantenimiento {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
   background-image: url(../media/5-tecnologia.jpg);
   background-position: center;
   background-size: cover;
@@ -51,6 +67,10 @@ header .bannerMantenimiento {
   height: 30vh; }
 
 header .bannerContacto {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
   background-image: url(../media/4-tecnologia.jpg);
   background-position: center;
   background-size: cover;
